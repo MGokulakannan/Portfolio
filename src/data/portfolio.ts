@@ -81,6 +81,7 @@ export const projects: Project[] = [
       "REST API",
       "JWT Authentication",
     ],
+    github: "https://github.com/MGokulakannan/GokulHRM",
   },
   {
     title: "To-Do List",
@@ -101,6 +102,7 @@ export const projects: Project[] = [
       "REST API",
       "CRUD Operations",
     ],
+    github: "https://github.com/MGokulakannan/To-do-list",
   },
 ];
 
