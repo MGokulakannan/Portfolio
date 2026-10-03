@@ -1,0 +1,41 @@
+.recognition-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.recognition-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-h);
+  margin-bottom: 16px;
+}
+
+.recognition-list {
+  display: grid;
+  gap: 12px;
+}
+
+.recognition-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+.recognition-icon {
+  display: inline-flex;
+  padding: 8px;
+  border-radius: 8px;
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+@media (max-width: 768px) {
+  .recognition-grid {
+    grid-template-columns: 1fr;
+  }
+}
